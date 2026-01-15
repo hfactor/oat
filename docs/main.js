@@ -4,25 +4,25 @@
 
 class LMDemo extends LMBase {
   init() {
-    // Get pristine HTML from template (before any JS modifies it)
+    // Get pristine HTML from template (before any JS modifies it).
     const template = this.$('template');
     const rawHTML = template.innerHTML;
     const formattedHTML = this.formatHTML(rawHTML);
 
-    // Build tabs structure using lm-tabs
+    // Create a tab element with Preview and Code tabs.
     this.innerHTML = `
       <lm-tabs>
         <div role="tablist">
-          <button role="tab">Demo</button>
-          <button role="tab">Code</button>
+          <button role="tab">Preview</button>
+          <button role="tab">{} Code</button>
         </div>
-        <div role="tabpanel"></div>
+        <div role="tabpanel" class="demo-box"><div class="demo-content"></div></div>
         <div role="tabpanel"><pre><code>${this.highlightHTML(formattedHTML)}</code></pre></div>
       </lm-tabs>
     `;
 
-    // Clone template content into Demo panel (now components initialize fresh)
-    this.$('[role="tabpanel"]').appendChild(template.content.cloneNode(true));
+    // Clone template content into Demo panel.
+    this.$('.demo-box .demo-content').appendChild(template.content.cloneNode(true));
   }
 
   highlightHTML(str) {
