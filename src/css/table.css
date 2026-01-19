@@ -1,7 +1,7 @@
 @layer base {
   table {
     width: 100%;
-    font-size: var(--lm-text-sm);
+    font-size: var(--lm-text-7);
   }
 
   thead {

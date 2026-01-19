@@ -18,12 +18,12 @@ Use the native `<progress>` element.
 
 ### Spinner
 
-Use `.spinner` with `role="status"` for loading indicators. Size with `.sm` or `.lg`.
+Use `.spinner` with `role="status"` for loading indicators. Size with `.small` or `.large`.
 
 {% demo() %}
 ```html
-<div role="status" class="spinner sm"></div>
+<div role="status" class="spinner small"></div>
 <div role="status" class="spinner"></div>
-<div role="status" class="spinner lg"></div>
+<div role="status" class="spinner large"></div>
 ```
 {% end %}

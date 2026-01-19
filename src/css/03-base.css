@@ -1,7 +1,7 @@
 @layer base {
   body {
     font-family: var(--lm-font-sans);
-    font-size: var(--lm-text-base);
+    font-size: var(--lm-text-regular);
     line-height: var(--lm-leading-normal);
     color: var(--lm-foreground);
     background-color: var(--lm-background);
@@ -18,32 +18,32 @@
   }
 
   h1 {
-    font-size: var(--lm-text-4xl);
+    font-size: var(--lm-text-1);
     margin: var(--lm-space-10) 0 var(--lm-space-6);
   }
 
   h2 {
-    font-size: var(--lm-text-3xl);
+    font-size: var(--lm-text-2);
     margin: var(--lm-space-8) 0 var(--lm-space-5);
   }
 
   h3 {
-    font-size: var(--lm-text-2xl);
+    font-size: var(--lm-text-3);
     margin: var(--lm-space-6) 0 var(--lm-space-4);
   }
 
   h4 {
-    font-size: var(--lm-text-xl);
+    font-size: var(--lm-text-4);
     margin: var(--lm-space-5) 0 var(--lm-space-3);
   }
 
   h5 {
-    font-size: var(--lm-text-lg);
+    font-size: var(--lm-text-5);
     margin: var(--lm-space-4) 0 var(--lm-space-2);
   }
 
   h6 {
-    font-size: var(--lm-text-base);
+    font-size: var(--lm-text-regular);
     margin: var(--lm-space-4) 0 var(--lm-space-2);
   }
 
@@ -75,7 +75,7 @@
   }
 
   small {
-    font-size: var(--lm-text-sm);
+    font-size: var(--lm-text-7);
   }
 
   code {
@@ -83,12 +83,12 @@
     font-size: 0.875em;
     padding: 0.125rem 0.25rem;
     background-color: var(--lm-faint);
-    border-radius: var(--lm-radius-sm);
+    border-radius: var(--lm-radius-small);
   }
 
   pre {
     font-family: var(--lm-font-mono);
-    font-size: var(--lm-text-sm);
+    font-size: var(--lm-text-7);
     padding: var(--lm-space-4);
     background-color: var(--lm-faint);
     border-radius: var(--lm-radius);
@@ -136,6 +136,6 @@
   mark {
     background-color: rgb(from var(--lm-warning) r g b / 0.3);
     padding: 0.125rem 0.25rem;
-    border-radius: var(--lm-radius-sm);
+    border-radius: var(--lm-radius-small);
   }
 }

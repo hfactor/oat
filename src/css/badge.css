@@ -4,7 +4,7 @@
     align-items: center;
     gap: var(--lm-space-1);
     padding: 0.125rem var(--lm-space-2);
-    font-size: var(--lm-text-xs);
+    font-size: var(--lm-text-8);
     font-weight: var(--lm-font-medium);
     line-height: var(--lm-leading-normal);
     background-color: var(--lm-primary);

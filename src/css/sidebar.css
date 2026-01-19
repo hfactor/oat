@@ -25,10 +25,10 @@
     justify-content: flex-start;
     gap: var(--lm-space-2);
     padding: var(--lm-space-1) var(--lm-space-3);
-    font-size: var(--lm-text-sm);
+    font-size: var(--lm-text-7);
     color: var(--lm-foreground);
     text-decoration: none;
-    border-radius: var(--lm-radius-sm);
+    border-radius: var(--lm-radius-small);
     transition: background-color var(--lm-transition-fast);
 
     &:hover, &[aria-current] {
@@ -49,10 +49,10 @@
     justify-content: flex-start;
     gap: var(--lm-space-2);
     padding: var(--lm-space-2) var(--lm-space-3);
-    font-size: var(--lm-text-sm);
+    font-size: var(--lm-text-7);
     font-weight: var(--lm-font-medium);
     color: var(--lm-foreground);
-    border-radius: var(--lm-radius-sm);
+    border-radius: var(--lm-radius-small);
 
     &::after {
       width: 0.75rem;
@@ -88,7 +88,7 @@
     .sidebar {
       transform: translateX(-100%);
       transition: transform var(--lm-transition);
-      box-shadow: var(--lm-shadow-lg);
+      box-shadow: var(--lm-shadow-large);
     }
 
     .sidebar[data-open] {

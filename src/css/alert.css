@@ -7,7 +7,7 @@
     background-color: var(--lm-background);
     border: 1px solid var(--lm-border);
     border-radius: var(--lm-radius);
-    font-size: var(--lm-text-sm);
+    font-size: var(--lm-text-7);
 
     &[data-variant="error"], &[data-variant="destructive"] {
       border-color: rgb(from var(--lm-destructive) r g b / 0.5);

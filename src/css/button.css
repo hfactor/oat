@@ -6,7 +6,7 @@
     gap: var(--lm-space-2);
     height: 2.5rem;
     padding: 0 var(--lm-space-4);
-    font-size: var(--lm-text-sm);
+    font-size: var(--lm-text-7);
     font-weight: var(--lm-font-medium);
     line-height: 1;
     white-space: nowrap;
@@ -80,27 +80,27 @@
       }
     }
 
-    &.sm {
+    &.small {
       height: 2rem;
       padding: 0 var(--lm-space-3);
-      font-size: var(--lm-text-xs);
+      font-size: var(--lm-text-8);
     }
 
-    &.lg {
+    &.large {
       height: 3rem;
       padding: 0 var(--lm-space-6);
-      font-size: var(--lm-text-base);
+      font-size: var(--lm-text-regular);
     }
 
     &.icon {
       width: 2.5rem;
       padding: 0;
 
-      &.sm {
+      &.small {
         width: 2rem;
       }
 
-      &.lg {
+      &.large {
         width: 3rem;
       }
     }

@@ -3,7 +3,7 @@
     background-color: var(--lm-card);
     color: var(--lm-card-foreground);
     border: 1px solid var(--lm-border);
-    border-radius: var(--lm-radius-lg);
+    border-radius: var(--lm-radius-large);
     overflow: hidden;
 
     & > header {
@@ -17,7 +17,7 @@
       }
 
       & > p {
-        font-size: var(--lm-text-sm);
+        font-size: var(--lm-text-7);
         color: var(--lm-muted-foreground);
         margin-bottom: 0;
       }

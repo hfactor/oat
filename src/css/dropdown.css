@@ -8,7 +8,7 @@
     background-color: var(--lm-background);
     border: 1px solid var(--lm-border);
     border-radius: var(--lm-radius);
-    box-shadow: var(--lm-shadow-md);
+    box-shadow: var(--lm-shadow-medium);
     opacity: 0;
     transform: translateY(-4px);
     transition:
@@ -37,12 +37,12 @@
     gap: var(--lm-space-2);
     width: 100%;
     padding: var(--lm-space-2) var(--lm-space-3);
-    font-size: var(--lm-text-sm);
+    font-size: var(--lm-text-7);
     text-align: left;
     color: var(--lm-foreground);
     background: none;
     border: none;
-    border-radius: var(--lm-radius-sm);
+    border-radius: var(--lm-radius-small);
     cursor: pointer;
 
     &:hover, &:focus {

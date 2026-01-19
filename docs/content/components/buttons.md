@@ -19,13 +19,13 @@ The `<button>` element is styled by default. Add classes for variants.
 
 ### Sizes
 
-Use `.sm` or `.lg` for size variants.
+Use `.small` or `.large` for size variants.
 
 {% demo() %}
 ```html
-<button class="sm">Small</button>
+<button class="small">Small</button>
 <button>Default</button>
-<button class="lg">Large</button>
+<button class="large">Large</button>
 ```
 {% end %}
 

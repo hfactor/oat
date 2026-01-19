@@ -13,7 +13,7 @@
     align-items: center;
     justify-content: center;
     padding: var(--lm-space-2) var(--lm-space-3);
-    font-size: var(--lm-text-sm);
+    font-size: var(--lm-text-7);
     font-weight: var(--lm-font-medium);
     white-space: nowrap;
     background-color: transparent;
@@ -30,7 +30,7 @@
     &[aria-selected="true"] {
       background-color: var(--lm-background);
       color: var(--lm-foreground);
-      box-shadow: var(--lm-shadow-sm);
+      box-shadow: var(--lm-shadow-small);
     }
 
     &:focus-visible {

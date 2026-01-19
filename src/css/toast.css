@@ -8,7 +8,7 @@
     color: var(--lm-foreground);
     border: 1px solid var(--lm-border);
     border-radius: var(--lm-radius);
-    box-shadow: var(--lm-shadow-lg);
+    box-shadow: var(--lm-shadow-large);
     max-width: 24rem;
 
     &[data-variant="success"] {
