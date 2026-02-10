@@ -62,4 +62,4 @@ publish: clean dist
 	@cp -r src/js dist/js
 	@VERSION=$$(git describe --tags --abbrev=0 | sed 's/^v//') && \
 		sed 's/"version-0.0.0"/"'"$$VERSION"'"/' package.json > dist/package.json
-	@cd dist && npm publish
+	@cd dist && npm publish --access public
