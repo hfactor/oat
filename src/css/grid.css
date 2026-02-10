@@ -21,7 +21,7 @@
   }
 
   /* Column spans using CSS custom property */
-  .col { grid-column: span var(--span, var(--grid-cols)); }
+  .col, [class*="col-"] { grid-column-end: span var(--span, var(--grid-cols)); }
   
   .col-1  { --span: 1; }
   .col-2  { --span: 2; }
@@ -37,19 +37,16 @@
   .col-12 { --span: 12; }
 
   /* Offsets via grid-column-start */
-  .col-offset-1  { grid-column-start: 2; }
-  .col-offset-2  { grid-column-start: 3; }
-  .col-offset-3  { grid-column-start: 4; }
-  .col-offset-4  { grid-column-start: 5; }
-  .col-offset-5  { grid-column-start: 6; }
-  .col-offset-6  { grid-column-start: 7; }
-
-  /* Auto-width column */
-  .col-auto { grid-column: auto; }
+  .offset-1  { grid-column-start: 2; }
+  .offset-2  { grid-column-start: 3; }
+  .offset-3  { grid-column-start: 4; }
+  .offset-4  { grid-column-start: 5; }
+  .offset-5  { grid-column-start: 6; }
+  .offset-6  { grid-column-start: 7; }
 
   .col-end {
-    grid-column: auto / -1;
-    justify-self: end;
+    grid-column-start: span var(--span, 1);
+    grid-column-end: -1;
   }
 
   /* Responsive: stack on mobile */
