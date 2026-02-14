@@ -163,8 +163,11 @@
       display: block;
     }
 
-    ot-demo.compact .demo-content {
+    .ot-demo.compact .demo-content {
       max-width: 400px;
+    }
+    .ot-demo pre {
+      display: none;
     }
 
     .demo-grid {
@@ -218,6 +221,7 @@
     }
 
     pre[data-lang] {
+      /* Hide Zola highlighted blocks initially to prevent FOUC. Show in JS after tab transformation. */
       position: relative;
 
       .copy-btn {

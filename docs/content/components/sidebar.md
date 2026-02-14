@@ -32,7 +32,7 @@ Use `data-sidebar-layout` on a container (typically `<body>`) with `<aside data-
     </footer>
   </aside>
   <main>
-    <p>Main content area. Scrolls with the page body.</p>
+    <div style="padding: var(--space-3)">Main content area. Scrolls with the page body.</div>
   </main>
 </div>
 ```

@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.ot-demo').forEach(demo => {
     const pre = demo.querySelector('pre');
     if (!pre) return;
+    pre.style.display = 'block';
 
     const code = pre.querySelector('code');
     const rawHTML = code.textContent;
